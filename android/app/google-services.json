@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "709959871971",
+    "project_id": "ether-app---reddit-clone",
+    "storage_bucket": "ether-app---reddit-clone.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:709959871971:android:6ce96ab00038d0465c84d6",
+        "android_client_info": {
+          "package_name": "com.example.ether_app"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBjvHHEdnR3kE8Dcdsmt2vuHZW6ytHM5Cc"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
