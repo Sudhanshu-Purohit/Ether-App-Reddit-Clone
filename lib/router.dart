@@ -5,6 +5,7 @@ import 'package:ether_app/features/community/screens/create_community_screen.dar
 import 'package:ether_app/features/community/screens/edit_community_screen.dart';
 import 'package:ether_app/features/community/screens/mod_tools_screen.dart';
 import 'package:ether_app/features/home/screens/home_screen.dart';
+import 'package:ether_app/features/posts/screens/add_post_type_screen.dart';
 import 'package:ether_app/features/user_profile/screens/edit_profile_screen.dart';
 import 'package:ether_app/features/user_profile/screens/user_profile_screen.dart';
 import 'package:flutter/material.dart';
@@ -35,5 +36,8 @@ final loggedInRoute = RouteMap(routes: {
   )),
   '/edit-profile/:uid': (route) => MaterialPage(child: EditProfileScreen(
     uid: route.pathParameters['uid']!
+  )),
+  '/add-post/:type': (route) => MaterialPage(child: AddPostTypeScreen(
+    type: route.pathParameters['type']!
   )),
 });
